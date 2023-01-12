@@ -1,9 +1,6 @@
 body {
   margin: 0;
-  display: block;
   width: 1440px;
-  height: 2590px;
-  margin: auto;
   font-family: 'Robota', sans-serif;
 }
 .navigation {
@@ -11,6 +8,7 @@ body {
   height: 72px;
   display: flex;
   align-items: center;
+  border: 1px solid #e7e9fc;
 }
 .navigation-logo-img1-link {
   margin-left: 50px;
@@ -191,4 +189,76 @@ footer {
   color: #e7e9fc;
   width: 264px;
   height: 72px;
+}
+
+/* portfolio.html */
+
+.filters-list {
+  padding-left: 0;
+  padding: 50px;
+  padding-right: 24px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.filter-item {
+  padding-right: 24px;
+}
+.filter-btn {
+  padding: 12px 24px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: #4d5ae5;
+  letter-spacing: 0.04em;
+}
+.filter-btn:hover {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+  border: none;
+}
+.innovations-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: -15px;
+  margin-bottom: 48px;
+}
+.innovations-item {
+  margin-right: 24px;
+}
+.card-cocntent {
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+  margin-top: -10px;
+}
+.card-cocntent-title {
+  color: #2e2f42;
+  padding-left: 16px;
+}
+.card-cocntent-text {
+  color: #434455;
+  padding-left: 16px;
+}
+.phone-skills-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: -15px;
+  margin-bottom: 48px;
+}
+.phone-skills-item {
+  margin-right: 24px;
+}
+.productivity-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: -15px;
+  margin-bottom: 120px;
+}
+.productivity-item {
+  margin-right: 24px;
 }
