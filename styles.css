@@ -57,7 +57,7 @@ body {
 .navigation-menu {
   list-style: none;
   display: flex;
-  margin-left: 76px;
+  margin-left: 56px;
   margin-right: 90px;
   font-weight: 500;
 }
@@ -84,7 +84,7 @@ body {
 }
 .contacts-link-mail {
   text-decoration: none;
-  margin-right: 80px;
+  margin-right: 40px;
   color: var(--main-txt-cl);
 }
 .contacts-link-phone {
